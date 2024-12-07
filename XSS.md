@@ -17,4 +17,13 @@ Perform actions on behalf of the user, such as submitting forms, without their c
 Identifying the XSS Vulnerability
 The search box on the website was tested for input sanitization. Entering a basic XSS payload resulted in the payload being executed on the page, confirming the vulnerability
 
+
+The website indicated that the input was not sanitized by displaying a pop-up window with the alert message once this payload was entered into the search input field.
+
+***payload***
+
+<sCrIpt>alert("XsS")</scRiPt>
+
 ![Screenshot 2024-12-07 063434](https://github.com/user-attachments/assets/16507c8d-6d98-4182-aeec-6c6fee4af6fe)
+
+
