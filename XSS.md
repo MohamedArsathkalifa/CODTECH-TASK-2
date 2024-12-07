@@ -10,3 +10,4 @@ Perform actions on behalf of the user, such as submitting forms, without their c
 **information**
 Identifying the XSS Vulnerability
 The search box on the website was tested for input sanitization. Entering a basic XSS payload resulted in the payload being executed on the page, confirming the vulnerability
+![Screenshot 2024-12-07 063434](https://github.com/user-attachments/assets/16507c8d-6d98-4182-aeec-6c6fee4af6fe)
