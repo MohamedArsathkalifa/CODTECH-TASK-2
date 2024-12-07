@@ -36,11 +36,21 @@ I found a column in the database where the payload could be saved for testing re
 
 
 ***MORE INFORMATION ABOUT XSS***
+
+
+
 Steps Taken to Identify the XSS Vulnerability:
+
+
+
 Testing for Input Sanitization:
 
 Initial Test: You entered a basic XSS payload, such as <script>alert('XSS')</script>, into the search box.
 Observation: When you submitted the input, the script was executed on the page (e.g., an alert box appeared), indicating that the input was not properly sanitized or escaped.
+
+
+
+
 Execution of Payload:
 
 The fact that the payload executed in the browser indicates that the application is not properly validating or escaping user input before rendering it on the page. This failure allows the malicious JavaScript to be injected and executed in the context of the page viewed by other users.
