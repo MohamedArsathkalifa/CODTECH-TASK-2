@@ -3,7 +3,7 @@ Cross-Site Scripting (XSS) is a security vulnerability typically found in web ap
 
 
 
-**How XSS Works**
+***How XSS Works***
 An attacker injects a script (usually JavaScript) into a web page that is displayed to other users.
 When the script is executed in the victim's browser, it can:
 Steal sensitive information (like cookies, session tokens, or login credentials).
@@ -13,7 +13,7 @@ Perform actions on behalf of the user, such as submitting forms, without their c
 
 
 
-**information**
+***information***
 Identifying the XSS Vulnerability
 The search box on the website was tested for input sanitization. Entering a basic XSS payload resulted in the payload being executed on the page, confirming the vulnerability
 
