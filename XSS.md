@@ -31,4 +31,5 @@ Example of Stored XSS
 
 I found a column in the database where the payload could be saved for testing reasons and run when other users accessed it.
 
-![Screenshot 2024-12-07 063434](https://github.com/user-attachments/assets/c3a62b67-c7d9-48a2-a792-02ecba41e4b2)
+
+![Screenshot 2024-12-07 064618](https://github.com/user-attachments/assets/a52ed705-d580-41a8-b02b-adfd49b4cd29)
