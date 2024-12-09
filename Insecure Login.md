@@ -20,6 +20,7 @@ password:admin
 
 2.you see the console , parameter and error
 
+![Screenshot_2024-12-09_13_33_13](https://github.com/user-attachments/assets/022c95d7-1d66-4c9c-9d36-2e6bc075e300)
 
 
 
