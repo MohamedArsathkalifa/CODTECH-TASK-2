@@ -17,8 +17,18 @@ password:admin
 ![Screenshot_2024-12-09_13_18_36](https://github.com/user-attachments/assets/97d4b16b-ce29-408e-875d-d20f78aea997)
 
 2.you see the console , parameter and error
+
+
+
+
 3.next going to view page source
+![Screenshot_2024-12-09_13_22_38](https://github.com/user-attachments/assets/9760788b-649e-4e1f-9ad2-3cce7ffe9ef9)
 
 
+
+developer give some hint for login:
+username:tonystark
+
+password:I am Iron Man
 
 
