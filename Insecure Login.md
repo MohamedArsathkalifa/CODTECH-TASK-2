@@ -14,6 +14,8 @@ For educational purposes only, here's how you can work with Broken Authenticatio
 1.you type a happy cycle
 login:admin
 password:admin 
+![Screenshot_2024-12-09_13_18_36](https://github.com/user-attachments/assets/97d4b16b-ce29-408e-875d-d20f78aea997)
+
 2.you see the console , parameter and error
 3.next going to view page source
 
