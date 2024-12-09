@@ -2,7 +2,17 @@ Broken Authentication - Insecure Login Forms refers to security vulnerabilities 
 working with bWAPP (buggy Web Application Project) for educational purposes, it’s a great way to learn about and test various web application vulnerabilities, including Broken Authentication and Insecure Login Forms. bWAPP is intentionally vulnerable and designed to help security enthusiasts and developers understand common security flaws.
 
 For Broken Authentication and Insecure Login Forms, bWAPP provides you with a hands-on environment to experiment with these vulnerabilities safely. Here's what you might encounter or test in this context
+
+
+
+/home/kali/Pictures/Screenshot_2024-12-09_12_29_56.png
+
+
+
+
 1.testing happy cycle like:
 username:admin
 password:admin
-2.to see a perameter and console
+2.to see a perameter,console,errors.
+3.go and click the view the source page.
+the developer buliding a new web page giving some hints
