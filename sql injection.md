@@ -215,6 +215,7 @@ Table: users
 4.
 sqlmap http://testphp.vulnweb.com/listproducts.php?cat=1 -D acuart -T users -columns
 
+![Screenshot_2024-12-10_16_13_32](https://github.com/user-attachments/assets/6c0f4464-2923-400d-b693-390f57d3a989)
 
 
 Database: acuart
