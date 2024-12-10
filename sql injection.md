@@ -47,7 +47,7 @@ Before using SQLMap, you need a URL with a parameter that could be potentially v
 - `--technique` : Specify injection techniques (e.g., `T`, `B`, `U`, `E`).
 - `--sql-shell` : Open an interactive SQL shell.
 
-### 6. **Ethical Considerations and Legal Concerns**
+Ethical Considerations and Legal Concerns
 
 - **Get Permission**: Never run SQLMap (or any penetration testing tool) against a website without **explicit permission**. This is critical to stay within legal boundaries.
 - **Bug Bounty Programs**: If you want to test websites in a legal environment, participate in **bug bounty programs** like those on **HackerOne**, **Bugcrowd**, or **Open Bug Bounty**.
