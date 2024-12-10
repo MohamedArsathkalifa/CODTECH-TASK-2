@@ -192,6 +192,7 @@ Database: acuart
 +-----------+
 
 
+![Screenshot_2024-12-10_15_32_48](https://github.com/user-attachments/assets/91e8900b-5610-4612-a1b9-49e7e4fa39bf)
 
 
 
